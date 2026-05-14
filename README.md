@@ -83,7 +83,7 @@ http://localhost:5173/
 
 ## 📂 專案結構 (Project Structure)
 
-` ` `text
+```text
 C:\NTHU\benson\
  ├── .venv/                   # Python 虛擬環境 (Git 已忽略)
  ├── web-particle-engine/      # 網頁版專案資料夾
@@ -95,4 +95,3 @@ C:\NTHU\benson\
  ├── target.jpg                # 預設目標圖
  ├── .gitignore                # Git 忽略清單
  └── README.md                 # 您正在閱讀的文件
-` ` `
