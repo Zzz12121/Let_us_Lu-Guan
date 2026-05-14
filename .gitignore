@@ -1,0 +1,17 @@
+# Python 虛擬環境與暫存檔
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node.js 依賴套件 (網頁版)
+web-particle-engine/node_modules/
+node_modules/
+dist/
+
+# 忽略生成的影片檔 (避免 GitHub 容量爆滿)
+*.mp4
+
+# 作業系統產生的系統暫存檔
+.DS_Store
+Thumbs.db
