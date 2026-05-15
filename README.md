@@ -29,24 +29,24 @@
 
 ### 1. 建立並啟動虛擬環境
 在專案根目錄開啟終端機 (PowerShell)，依序執行：
-` ` `powershell
+```powershell
 # 建立虛擬環境
 python -m venv .venv
 
 # 啟動虛擬環境 (繞過 Windows 執行原則限制)
 (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& .\.venv\Scripts\Activate.ps1)
-` ` `
+```
 
 ### 2. 安裝必要套件
-` ` `powershell
+```powershell
 pip install numpy Pillow opencv-python tqdm
-` ` `
+```
 
 ### 3. 執行渲染程式
 確保資料夾內已有 strong_grandpa.jpg 與 target.jpg。
-` ` `powershell
+```powershell
 python strong_grandpa_pro.py
-` ` `
+```
 *執行完成後，您將在根目錄看到 strong_grandpa_animated.mp4 影片檔案。*
 
 ---
@@ -56,19 +56,19 @@ python strong_grandpa_pro.py
 將演算法移植至瀏覽器端，利用使用者端的運算資源進行即時相變模擬。
 
 ### 1. 進入網頁專案目錄
-` ` `powershell
+```powershell
 cd web-particle-engine
-` ` `
+```
 
 ### 2. 安裝前端依賴套件
-` ` `powershell
+```powershell
 npm install
-` ` `
+```
 
 ### 3. 啟動本地開發伺服器 (Localhost)
-` ` `powershell
+```powershell
 npm run dev
-` ` `
+```
 
 ### 4. 開啟網頁體驗
 啟動後，請在瀏覽器網址列輸入：
@@ -94,4 +94,5 @@ C:\NTHU\benson\
  ├── strong_grandpa.jpg        # 預設來源圖
  ├── target.jpg                # 預設目標圖
  ├── .gitignore                # Git 忽略清單
- └── README.md                 # 您正在閱讀的文件   
+ └── README.md                 # 您正在閱讀的文件
+```
