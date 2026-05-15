@@ -84,7 +84,7 @@ http://localhost:5173/
 ## 📂 專案結構 (Project Structure)
 
 ```text
-C:\NTHU\benson\
+C:\your_project
  ├── .venv/                   # Python 虛擬環境 (Git 已忽略)
  ├── web-particle-engine/      # 網頁版專案資料夾
  │    ├── public/             # 存放預設圖片 (target.jpg)
